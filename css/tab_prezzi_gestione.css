@@ -1,0 +1,38 @@
+.pricing-plan li {
+  border-bottom: 1px dotted #ededed;
+  font-size: 16px;
+}
+
+.pricing-plan {
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 50px;
+}
+
+.pricing-plan .card-header {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.card li {
+  padding: 8px 0;
+}
+
+.set-price {
+  background: #225b8b !important;
+  color: #ffffff;
+}
+.starter {
+  background: #2da2bc !important;
+  color: #ffffff;
+}
+
+.advanced {
+  background: #f79125 !important;
+  color: #ffffff;
+}
+
+.business {
+  background: #cc2836 !important;
+  color: #ffffff;
+}

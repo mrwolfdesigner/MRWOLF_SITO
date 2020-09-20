@@ -1,0 +1,7 @@
+.sq-crousal4 .carousel-indicators li::before {width: 15px;height: 15px;background: #444;border-radius: 50%;	border: solid 2px #AAACAE;
+transition: all 0.3s ease 0s;box-shadow: 6px 6px 8px #E9E0E0 inset;}
+.sq-crousal4 .carousel-indicators li.active::before {background: #1870ed;box-shadow: 2px 3px 2px #e5edf8 inset;border-color: #1870ed;}
+.sq-crousal4 .carousel-indicators {bottom: -40px;}
+.sq-crousal4 li {width: 20px;}
+.sq-crousal4 .fa-angle-left {font-size: 45px;color: #444;left: -30px;position: relative;top: -17px;}
+.sq-crousal4 .fa-angle-right {font-size: 45px;color: #444;right: -30px;position: relative;top: -17px;}

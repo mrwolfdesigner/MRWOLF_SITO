@@ -1,0 +1,205 @@
+body {
+   font-family: 'Raleway', sans-serif;
+   font-size: 15px;
+   color: #a5a5a5;
+   font-weight: normal;
+}
+    .padding {
+        /* padding: 7.5rem 0; */
+        padding: 3.5rem 0;
+    }
+    .heading-title > span {
+        font-size: 1.25rem;
+        display: block;
+        text-transform: capitalize;
+    }
+    .text-center .fact-iconic h3::after,
+    .text-center.fact-iconic h3::after {
+       margin-left: auto;
+       margin-right: auto;
+    }
+    .darkcolor {
+   color: #212331;
+}
+.bottom20 {
+   margin-bottom: 20px;
+}
+.bottom0 {
+   margin-bottom: 0;
+}
+.process-wrapp {
+   overflow: hidden;
+   display: table;
+   table-layout: fixed;
+   margin: 0 15px;
+}
+
+.process-box {
+   background: #fff;
+   -webkit-box-shadow: 0 0px 1px rgba(127, 123, 123, 0.1);
+   box-shadow: 0 0px 1px rgba(127, 123, 123, 0.1);
+   -webkit-transition: all .5s ease-in;
+   -o-transition: all .5s ease-in;
+   transition: all .5s ease-in;
+   padding: 2.5rem 15px;
+}
+
+.process-box:hover {
+   -webkit-box-shadow: 0px 0px 15px -6px #212331;
+   box-shadow: 0px 0px 15px -6px #212331;
+}
+
+.process-box,
+.process-wrapp li,
+.process-wrapp li > .pro-step,
+.process-box .pro-step {
+   text-align: center;
+}
+
+.process-wrapp,
+.process-wrapp li,
+.process-wrapp li > .pro-step {
+   position: relative;
+   z-index: 1;
+}
+
+.process-wrapp li {
+   padding: 60px 15px 0 15px;
+   display: table-cell;
+}
+
+.process-wrapp li > .pro-step,
+.process-box .pro-step {
+   height: 90px;
+   width: 90px;
+   line-height: 91px;
+   font-size: 28px;
+   color: #fff;
+   -webkit-border-radius: 50%;
+   border-radius: 50%;
+}
+
+.process-wrapp li > .pro-step,
+.process-box .pro-step,
+.process-wrapp li > .pro-step > i {
+   display: inline-block;
+}
+
+.process-wrapp li > .pro-step::after {
+   content: "";
+   position: absolute;
+   border-radius: inherit;
+   top: -10px;
+   left: -10px;
+   right: -10px;
+   bottom: -10px;
+   opacity: 0;
+   z-index: -1;
+   visibility: hidden;
+}
+
+.process-wrapp li > .pro-step.gradient_bg_one::after {
+   background: #d043ca;
+}
+
+.process-wrapp li > .pro-step.gradient_bg_two::after {
+   background: #f75799;
+}
+
+.process-wrapp li > .pro-step.gradient_bg_three::after {
+   background: #00bcd4;
+}
+
+.process-wrapp li > .pro-step.gradient_bg_four::after {
+   background: #3fb8af;
+}
+
+.process-wrapp li > .pro-step.gradient_bg_five::after {
+   background: #f39484;
+}
+
+.process-wrapp li:hover > .pro-step::after {
+   opacity: 1;
+   visibility: visible;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+}
+.process-wrapp li:hover > .pro-step > i {}
+.gradient_color_one,
+.gradient_bg_one {
+   background: -webkit-linear-gradient(90deg, #8579e0, #d043ca);
+   background: -webkit-gradient(linear, left top, right top, color-stop(#8579e0), color-stop(#d043ca));
+   background: -webkit-linear-gradient(left, #8579e0, #d043ca);
+   background: -o-linear-gradient(left, #8579e0, #d043ca);
+   background: linear-gradient(90deg, #8579e0, #d043ca);
+}
+
+.gradient_color_two,
+.gradient_bg_two {
+   background: -webkit-linear-gradient(90deg, #f75799, #fd6687);
+   background: -webkit-gradient(linear, left top, right top, color-stop(#f75799), color-stop(#fd6687));
+   background: -webkit-linear-gradient(left, #f75799, #fd6687);
+   background: -o-linear-gradient(left, #f75799, #fd6687);
+   background: linear-gradient(90deg, #f75799, #fd6687);
+}
+
+.gradient_color_three,
+.gradient_bg_three {
+   background: -webkit-linear-gradient(90deg, #23ced5, #5192e1);
+   background: -webkit-gradient(linear, left top, right top, color-stop(#23ced5), color-stop(#5192e1));
+   background: -webkit-linear-gradient(left, #23ced5, #5192e1);
+   background: -o-linear-gradient(left, #23ced5, #5192e1);
+   background: linear-gradient(90deg, #23ced5, #5192e1);
+}
+
+.gradient_color_four,
+.gradient_bg_four {
+   background: -webkit-linear-gradient(90deg, #3fd39f, #3fb8af);
+   background: -webkit-gradient(linear, left top, right top, color-stop(#3fd39f), color-stop(#3fb8af));
+   background: -webkit-linear-gradient(left, #3fd39f, #3fb8af);
+   background: -o-linear-gradient(left, #3fd39f, #3fb8af);
+   background: linear-gradient(90deg, #3fd39f, #3fb8af);
+}
+
+.gradient_color_five,
+.gradient_bg_five {
+   background: -webkit-linear-gradient(90deg, #f5c28a, #f39484);
+   background: -webkit-gradient(linear, left top, right top, color-stop(#f5c28a), color-stop(#f39484));
+   background: -webkit-linear-gradient(left, #f5c28a, #f39484);
+   background: -o-linear-gradient(left, #f5c28a, #f39484);
+   background: linear-gradient(90deg, #f5c28a, #f39484);
+}
+.font-light {
+   font-weight: 300;
+}
+.bottom25 {
+   margin-bottom: 25px;
+}
+a,
+*::before,
+*::after,
+img,
+span,
+input,
+button,
+.navbar,
+.fixedmenu,
+.tp-bullet,
+.tparrows,
+.owl-dot,
+.owl-prev,
+.owl-next,
+.sidemenu_btn {
+   -webkit-transition: all .4s ease-in;
+   -o-transition: all .4s ease-in;
+   transition: all .4s ease-in;
+}
+
+i::before,
+i::after {
+   -webkit-transition: all 0s !important;
+   -o-transition: all 0s !important;
+   transition: all 0s !important;
+}

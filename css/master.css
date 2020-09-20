@@ -1,0 +1,17 @@
+.spacer{
+  height: 2rem;
+  background-color: #EEEEEE;
+}
+
+.carousel-caption {
+	padding-bottom: 0  !important;
+}
+
+
+.contact_no_border{
+  border: none !important;
+}
+
+div.single-contact-info > p{
+  color: black;
+}

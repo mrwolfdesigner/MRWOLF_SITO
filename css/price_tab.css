@@ -1,0 +1,61 @@
+.demo,h4{padding:30px 0}
+.pricingTable,h4{text-align:center}
+body{padding:0;margin:0}
+.demo{background:#B2B2B2}
+h4{color:#444}
+.pricingTable{background:#fff;border-radius:10px;overflow:hidden;position:relative;transition:all .3s ease 0s}
+.pricingTable:hover{box-shadow:0 0 5px rgba(0,0,0,.8) inset,0 0 10px rgba(0,0,0,.8)}
+.pricingTable svg{display:block;margin-left:-1px}
+.pricingTable .pricing-content{padding:50px 0 30px;position:relative}
+.pricingTable .title{font-size:35px;font-weight:600;color:#ae003d;text-transform:uppercase;margin:0 0 10px}
+.pricingTable .pricing-content ul{padding:0;margin:0 0 30px;list-style:none}
+.pricingTable .pricing-content ul li{font-size:18px;color:rgba(0,0,0,.3);line-height:40px;text-transform:capitalize}
+.pricingTable .pricingTable-signup{display:inline-block;padding:8px 50px;background:#ae003d;border-radius:20px;font-size:20px;font-weight:600;color:#fff;text-transform:uppercase;position:relative;transition:all .3s ease 0s}
+.pricingTable:hover .pricingTable-signup{box-shadow:0 0 10px #ae003d}
+.pricingTable .pricingTable-signup:hover{color:#ae003d;background:#fff;box-shadow:0 0 10px #ae003d,0 0 10px #000 inset}
+.pricingTable.blue .title{color:#005c99}
+.pricingTable.blue .pricingTable-signup{background:#005c99}
+.pricingTable.blue:hover .pricingTable-signup{box-shadow:0 0 10px #005c99}
+.pricingTable.blue .pricingTable-signup:hover{color:#005c99;background:#fff;box-shadow:0 0 10px #005c99,0 0 10px #000 inset}
+.pricingTable.red .title{color:#db2c29}
+.pricingTable.red .pricingTable-signup{background:#db2c29}
+.pricingTable.red:hover .pricingTable-signup{box-shadow:0 0 10px #db2c29}
+.pricingTable.red .pricingTable-signup:hover{color:#db2c29;background:#fff;box-shadow:0 0 10px #db2c29,0 0 10px #000 inset}
+@media only screen and (max-width:990px){.pricingTable{margin-bottom:30px}
+}
+
+
+
+/******************* Pricing Table Demo - 11 *****************/
+/* .demo11{background:#B1EA86;padding:30px 0} */
+/* .demo11{background:#7283A7;padding:30px 0} */
+.demo11{background:#FFD700;padding:30px 0}
+.pricingTable11{text-align:center;background:#fff;margin:0 -15px;box-shadow:0 0 10px #ababab;padding-bottom:40px;border-radius:10px;color:#cad0de;transform:scale(1);transition:all .5s ease 0s}
+.pricingTable11:hover{transform:scale(1.05);z-index:1}
+.pricingTable11 .pricingTable-header{padding:40px 0;background:#f5f6f9;border-radius:10px 10px 50% 50%;transition:all .5s ease 0s}
+.pricingTable11:hover .pricingTable-header{background:#ff9624}
+.pricingTable11 .pricingTable-header i{font-size:50px;color:#858c9a;margin-bottom:10px;transition:all .5s ease 0s}
+.pricingTable11 .price-value{font-size:35px;color:#ff9624;transition:all .5s ease 0s}
+.pricingTable11 .month{display:block;font-size:14px;color:#cad0de}
+.pricingTable11:hover .month,.pricingTable11:hover .price-value,.pricingTable11:hover .pricingTable-header i{color:#fff}
+.pricingTable11 .heading{font-size:24px;color:#ff9624;margin-bottom:20px;text-transform:uppercase}
+.pricingTable11 .pricing-content ul{list-style:none;padding:0;margin-bottom:30px}
+.pricingTable11 .pricing-content ul li{line-height:30px;color:#a7a8aa}
+.pricingTable11 .pricingTable-signup a{display:inline-block;font-size:15px;color:#fff;padding:10px 35px;border-radius:20px;background:#ffa442;text-transform:uppercase;transition:all .3s ease 0s}
+.pricingTable11 .pricingTable-signup a:hover{box-shadow:0 0 10px #ffa442}
+.pricingTable11.blue .heading,.pricingTable11.blue .price-value{color:#4b64ff}
+.pricingTable11.blue .pricingTable-signup a,.pricingTable11.blue:hover .pricingTable-header{background:#4b64ff}
+.pricingTable11.blue .pricingTable-signup a:hover{box-shadow:0 0 10px #4b64ff}
+.pricingTable11.red .heading,.pricingTable11.red .price-value{color:#ff4b4b}
+.pricingTable11.red .pricingTable-signup a,.pricingTable11.red:hover .pricingTable-header{background:#ff4b4b}
+.pricingTable.red .pricingTable-signup a:hover{box-shadow:0 0 10px #ff4b4b}
+.pricingTable11.green .heading,.pricingTable11.green .price-value{color:#40c952}
+.pricingTable11.green .pricingTable-signup a,.pricingTable11.green:hover .pricingTable-header{background:#40c952}
+.pricingTable11.green .pricingTable-signup a:hover{box-shadow:0 0 10px #40c952}
+.pricingTable11.blue:hover .price-value,.pricingTable11.green:hover .price-value,.pricingTable11.red:hover .price-value{color:#fff}
+@media screen and (max-width:990px){.pricingTable11{margin:0 0 20px}
+}
+
+.green, .blue, .red {
+	background-color: white !important;
+}
